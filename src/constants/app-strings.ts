@@ -1,0 +1,25 @@
+export const APP_STRINGS = {
+  SITE_NAME: "BookHaven",
+  SITE_TAGLINE: "Online Book Shop",
+  HOME_CATALOG_HEADING: "Browse the catalog",
+  HOME_CATALOG_SUBTITLE: "Ten timeless reads, one calm checkout.",
+  CART_PAGE_HEADING: "Your shopping cart",
+  CART_PAGE_SUBTITLE: "Review titles, adjust quantities, and check your total.",
+  ADD_TO_CART_LABEL: "Add to cart",
+  ADDED_TO_CART_MESSAGE: "Added to your cart.",
+  GO_TO_CART_LABEL: "View cart",
+  CONTINUE_SHOPPING_LABEL: "Continue shopping",
+  REMOVE_LINE_LABEL: "Remove",
+  DECREASE_QUANTITY_LABEL: "Decrease quantity",
+  INCREASE_QUANTITY_LABEL: "Increase quantity",
+  EMPTY_CART_HEADING: "Your cart is waiting",
+  EMPTY_CART_BODY: "Add a book from the homepage to see it here. Your picks sync across visits.",
+  CART_LINE_SKU_PREFIX: "SKU",
+  CART_TOTAL_LABEL: "Cart total",
+  SEARCH_PLACEHOLDER: "Search by title or author",
+  SKIP_TO_MAIN_CONTENT: "Skip to main content",
+  CATALOG_SUPABASE_QUERY_FAILED:
+    "We could not load books from the database, so we are showing the bundled catalog from src/lib/books.ts.",
+  CATALOG_SUPABASE_EMPTY_FALLBACK:
+    "The database returned no rows yet, so we are showing the bundled catalog from src/lib/books.ts.",
+} as const;
